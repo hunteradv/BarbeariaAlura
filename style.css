@@ -253,6 +253,7 @@ th {
   .caixa,
   .principal,
   .conteudo-beneficios,
+  .lista-beneficios,
   .mapa-conteudo,
   .video {
     width: auto;
@@ -266,8 +267,14 @@ th {
     position: static;
   }
 
-  .lista-beneficios,
-  .imagem-beneficios {
+  .produtos {
+    width: auto;
+  }
+
+  .produtos li,
+  .produtos h2,
+  .produto-descricao,
+  .produto-preco {
     width: 100%;
   }
 }
